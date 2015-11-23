@@ -23,7 +23,7 @@ public class MongoTweet {
      */
     public static void main(String[] args) {
         // Since 2.10.0, uses MongoClient
-	MongoClient mongo = new MongoClient( "167.205.35.19");
+	MongoClient mongo = new MongoClient( "192.168.1.24");
         
 	MongoDatabase db = mongo.getDatabase("anda");
 
