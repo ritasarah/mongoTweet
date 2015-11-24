@@ -97,7 +97,7 @@ public class MongoTweet {
     }
     
     public static void connect() {
-        mongo = new MongoClient("localhost");
+        mongo = new MongoClient("167.205.35.19");
 	db = mongo.getDatabase("anda");
     }
     
